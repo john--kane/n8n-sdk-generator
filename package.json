@@ -1,6 +1,7 @@
 {
   "name": "n8n-sdk-generator",
   "version": "0.0.1",
+
   "description": "Scan n8n webhook nodes and generates typescript SDK code for them",
   "main": "dist/index.js",
   "scripts": {
@@ -11,9 +12,9 @@
   "bin": {
     "n8n-sdk-generator": "dist/cli.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["n8n", "sdk", "code generator", "typescript"],
+  "author": "John Kane",
+  "license": "MIT",
   "packageManager": "pnpm@10.17.0",
   "devDependencies": {
     "@types/node": "^24.6.2",
