@@ -1,7 +1,6 @@
 {
   "name": "n8n-sdk-generator",
   "version": "0.0.1",
-
   "description": "Scan n8n webhook nodes and generates typescript SDK code for them",
   "main": "dist/index.js",
   "scripts": {
