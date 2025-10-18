@@ -1,0 +1,28 @@
+{
+  "name": "n8n-sdk-generator",
+  "version": "0.0.1",
+  "description": "Scan n8n webhook nodes and generates typescript SDK code for them",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/cli.js",
+    "dev": "node --loader ts-node/esm src/cli.ts"
+  },
+  "bin": {
+    "n8n-sdk-generator": "dist/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.0",
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "dotenv": "^17.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "node-fetch": "^3.3.2"
+  },
+  "dependencies": {
+  },
+  "type": "module"
+}
